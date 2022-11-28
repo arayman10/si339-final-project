@@ -20,6 +20,6 @@ nav{
   }
 
 
-nav a:active {
+a:active {
     color: yellow;
   }
