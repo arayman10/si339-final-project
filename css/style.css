@@ -18,3 +18,8 @@ nav{
     padding: 25px 0; 
     text-align: left;
   }
+
+
+nav a:active {
+    color: yellow;
+  }
