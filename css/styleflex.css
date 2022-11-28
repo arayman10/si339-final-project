@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 16pt; 
-    
+
   }
   
   header{
@@ -42,7 +42,10 @@ body{
   }
   body img{
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
+      align-items: center;
+      width: 400px;
   }
 
   header{
@@ -70,4 +73,10 @@ body{
       visibility: hidden;
       animation: none;
     }
+  }
+  footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
   }
