@@ -19,6 +19,12 @@ nav{
     text-align: left;
     min-width: 1500px;
   }
+
+.active a{
+    color: red;
+    border: dashed black 2px;
+}
+
 body{
     margin: 0;
     padding: 0;
