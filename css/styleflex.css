@@ -29,35 +29,35 @@ body img{
     font-size: large;
   }
 
-  @media screen and (min-width:900px) {
+  @media screen and (min-width:750px) {
     body{
         background-image: url("../images/appetizers/capresesald.jpg");
     }
+    
     body img{
-        width: 300px;
-        align-items: center;
-        justify-content: center;
-        
+      width: 400px;
+      align-items: center;
+      justify-content: center;
+      width: 48.3%;
+       
     }
     .img{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-basis: 300px;
-      width: 50%;
+      justify-content: center;
     }
   }
-  @media screen and (min-width:1378px) {
+  @media screen and (min-width:900px) {
     body{
         background-image: url("../images/appetizers/capresesald.jpg");
     }
+
     body img{
         width: 400px;
         align-items: center;
         justify-content: center;
-        width: 32.45%;
+        width: 31.9%;
     }
     .img{
       display: flex;
