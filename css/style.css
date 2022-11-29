@@ -60,7 +60,7 @@ footer{
 .maingallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: (4, 200px);
+    grid-template-rows: (7, 200px);
 }
 
 .maingallery img{
@@ -70,7 +70,40 @@ footer{
 }
 .maingallery img:nth-child(7){
     grid-column: 1/ span 3;
+    grid-row: 7;
+}
+
+.garlic{
+    grid-column: 1;
+    grid-row: 2;
+}
+.oil{
+    grid-column: 2;
+    grid-row: 2;
+}
+.parm{
+    grid-column: 3;
+    grid-row: 2;
+}
+.onion{
+    grid-column: 1;
     grid-row: 4;
+}
+.pepperflakes{
+    grid-column: 2;
+    grid-row: 4;
+}
+.pasta{
+    grid-column: 3;
+    grid-row: 4;
+}
+.butter{
+    grid-column: 1;
+    grid-row: 6;
+}
+.vodka{
+    grid-column: 2;
+    grid-row: 6;
 }
 
 .cookiegallery{
