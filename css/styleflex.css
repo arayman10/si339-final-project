@@ -26,7 +26,7 @@ nav{
 }
 
 body{
-    background-color: white;
+    background-image: url("../images/appetizers/capresesald.jpg");
 }
 
 body h1{
@@ -70,9 +70,16 @@ body img{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0px;
 }
-  
-  
+
+.text-block{
+    background-color: rgba(255, 255, 255, .8);
+    border: 5px solid black;
+    padding: 30px;
+    margin: 5px;
+    font-size: large;
+  }
 
 
  
