@@ -13,6 +13,7 @@ body img{
     align-items: center;
     justify-content: center;
     width: 100%;
+    border: solid snow 5px;
 }
 .img{
   display: flex;
@@ -59,7 +60,7 @@ body img{
         width: 400px;
         align-items: center;
         justify-content: center;
-        width: 33.14%;
+        width: 32.45%;
     }
     .img{
       display: flex;
