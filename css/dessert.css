@@ -1,15 +1,71 @@
+body{
+    background-image: url("../images/dessert/cookies.jpg");
+    background-size: contain;
+}
+
+.text-block{
+    background-color: rgba(255, 255, 255, .8);
+    border: 5px solid black;
+    padding: 30px;
+    margin: 5px;
+    font-size: large;
+}
+
 .cookiegallery{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: (4, 200px);
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .cookiegallery img{
-    width: 100%;
+    width: 95%;
     height: 100%;
     object-fit: cover;
+    border: solid white 5px;
 }
 .cookiegallery img:nth-child(9){
-    grid-column: 1/ span 3;
+    grid-column: 1/ span 2;
+    grid-row: 9;
+    max-height: 300px;
+
+}
+.bakingsoda{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+}
+.butter{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+}
+.chocolatechips{
+    grid-column: 1;
     grid-row: 4;
+    background-color: white;
+}
+.eggs{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: white;
+}
+.flour{
+    grid-column: 1;
+    grid-row: 6;
+    background-color: white;
+}
+.salt{
+    grid-column: 2;
+    grid-row: 6;
+    background-color: white;
+}
+.vanilla{
+    grid-column: 1;
+    grid-row: 8;
+    background-color: white;
+}
+.water{
+    grid-column: 2;
+    grid-row: 8;
+    background-color: white;
 }
