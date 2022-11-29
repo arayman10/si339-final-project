@@ -11,7 +11,7 @@ nav a{
 }
 
 nav{
-    background-color: #ddd;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgb(255, 255, 255));;
     padding: 25px 0; 
     text-align: center;
 }
@@ -59,10 +59,22 @@ footer{
         text-align: left;
         padding: 25px 0px 25px 10px; 
     }
+    nav a{
+        color: white;
+    }
+    .active a{
+        color: rgb(236, 163, 163);
+        border: dashed white 2px;
 }
 @media screen and (min-width:900px) {
     nav{
         text-align: right;
         padding: 25px 0px 25px 10px; 
     }
+    nav a{
+        color: black;
+    }
+    .active a{
+        color: maroon;
+        border: dashed black 2px;
 }
