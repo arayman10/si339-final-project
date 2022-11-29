@@ -20,6 +20,7 @@ main h2{
 }
 main p{
     text-align: center;
+    font-weight: bold;
 }
 main li{
     line-height: 20px;
