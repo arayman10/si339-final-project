@@ -132,3 +132,63 @@ body{
     }
 
 }
+@media screen and (min-width:750px){
+    .cookiegallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    
+    .cookiegallery img{
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        border: solid white 5px;
+    }
+    .cookiegallery img:nth-child(9){
+        grid-column: 1/ span 4;
+        grid-row: 9;
+        max-height: 300px;
+    
+    }
+    .bakingsoda{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: white;
+    }
+    .butter{
+        grid-column: 2;
+        grid-row: 2;
+        background-color: white;
+    }
+    .chocolatechips{
+        grid-column: 3;
+        grid-row: 2;
+        background-color: white;
+    }
+    .eggs{
+        grid-column: 4;
+        grid-row: 2;
+        background-color: white;
+    }
+    .flour{
+        grid-column: 1;
+        grid-row: 4;
+        background-color: white;
+    }
+    .salt{
+        grid-column: 2;
+        grid-row: 4;
+        background-color: white;
+    }
+    .vanilla{
+        grid-column: 3;
+        grid-row: 4;
+        background-color: white;
+    }
+    .water{
+        grid-column: 4;
+        grid-row: 4;
+        background-color: white;
+    }
+}
