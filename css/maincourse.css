@@ -1,0 +1,73 @@
+body{
+    background-image: url("../images/maincourse/rigatoniallavodka.jpg");
+}
+
+.text-block{
+    background-color: rgba(255, 255, 255, .8);
+    border: 5px solid black;
+    padding: 30px;
+    margin: 5px;
+    font-size: large;
+}
+
+.maingallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (7, 200px);
+}
+
+.maingallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.maingallery img:nth-child(7){
+    grid-column: 1/ span 3;
+    grid-row: 7;
+}
+
+.garlic{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white
+}
+.oil{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white
+}
+.parm{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: white
+}
+.onion{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: white
+}
+.pepperflakes{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: white
+}
+.pasta{
+    grid-column: 3;
+    grid-row: 4;
+    background-color: white
+}
+.butter{
+    grid-column: 1;
+    grid-row: 6;
+    background-color: white
+}
+.vodka{
+    grid-column: 2;
+    grid-row: 6;
+    background-color: white
+}
+.tomatopaste{
+    grid-column: 3;
+    grid-row: 6;
+    background-color: white
+}
