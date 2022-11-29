@@ -21,4 +21,12 @@ main h2{
 main p{
     text-align: center;
 }
+main li{
+    line-height: 20px;
+    padding-left: 15px;
+}
+main h3{
+    padding-left: 10px;
+    line-height: 20px;
+}
 
