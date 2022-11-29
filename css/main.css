@@ -8,3 +8,6 @@ body img{
     justify-content: center;
     justify-content: space-around;
 }
+body{
+    background-image: linear-gradient( white,rgb(255, 195, 195));
+}
