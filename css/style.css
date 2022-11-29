@@ -56,18 +56,34 @@ footer{
     text-align: center;
 }
 
-.gallery{
+.maingallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: (4, 200px);
 }
 
-.gallery img{
+.maingallery img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.gallery img:nth-child(7){
+.maingallery img:nth-child(7){
+    grid-column: 1/ span 3;
+    grid-row: 4;
+}
+
+.cookiegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (4, 200px);
+}
+
+.cookiegallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cookiegallery img:nth-child(9){
     grid-column: 1/ span 3;
     grid-row: 4;
 }
