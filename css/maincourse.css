@@ -25,6 +25,9 @@ body{
     object-fit: cover;
     border: white solid 5px;
 }
+.maingallery:focus img{
+    outline: 2px solid blue;
+}
 
 .maingallery img:nth-child(1){
     grid-column: 1/span 2;
@@ -234,6 +237,7 @@ body{
         height: 90%;
         object-fit: cover;
         border: solid white 10px;
+
     }
 
     .maingallery img:nth-child(1){
