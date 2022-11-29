@@ -5,7 +5,7 @@ nav li{
 }
 
 nav a{
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none; 
 }
@@ -17,8 +17,8 @@ nav{
 }
 
 .active a{
-    color: maroon;
-    border: dashed black 2px;
+    color: rgb(236, 163, 163);
+    border: dashed white 2px;
 }
 
 body{
