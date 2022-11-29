@@ -60,7 +60,8 @@ body img{
     width: 400px;
     height: 400px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    width: 33.14%;
 }
 .img{
   display: flex;
@@ -68,7 +69,6 @@ body img{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  row-gap: 100px;
 }
   
   
