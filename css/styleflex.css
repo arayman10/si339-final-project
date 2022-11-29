@@ -1,62 +1,11 @@
-html{
-    scroll-behavior: smooth;
-}
 
-nav li{
-    display:inline;
-    padding-right:20px;
-  
-}
-
-nav a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none; 
-}
-
-nav{
-    background-color: #ddd;
-    padding: 25px 0; 
-    text-align: left;
-}
-
-.active a{
-    color: red;
-    border: dashed black 2px;
-}
 
 body{
     background-image: url("../images/appetizers/capresesald.jpg");
     
 }
 
-body h1{
-    border: double maroon 5px;
-    text-align: center;
-    font-size: 30px;
-    color: maroon;
-    background-color: rgb(236, 163, 163);
-    padding: 10px;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-main h2{
-    font-size: 20px;
-    margin: 10px;
-    text-decoration: underline;
-}
-main p{
-    margin: 10px;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
 
 body img{
     width: 400px;
