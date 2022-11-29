@@ -17,8 +17,11 @@ body img{
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 0px;
+}
+.images:focus{
+  border-color: tomato;
 }
 .text-block{
     background-color: rgba(255, 255, 255, .8);
