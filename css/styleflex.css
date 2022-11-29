@@ -30,10 +30,11 @@ body{
 }
 
 body h1{
-    border: solid grey 3px;
+    border: double maroon 5px;
     text-align: center;
     font-size: 30px;
-    color: rgb(84, 84, 84);
+    color: maroon;
+    background-color: rgb(236, 163, 163);
     padding: 10px;
     width: 30%;
     margin-left: auto;
