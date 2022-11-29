@@ -1,24 +1,24 @@
 html{
     scroll-behavior: smooth;
 }
+
 nav li{
     display:inline;
     padding-right:20px;
   
-  }
+}
 
 nav a{
     color: black;
     font-weight: bold;
     text-decoration: none; 
-  }
+}
 
 nav{
     background-color: #ddd;
     padding: 25px 0; 
     text-align: left;
-    min-width: 1500px;
-  }
+}
 
 .active a{
     color: red;
@@ -26,85 +26,50 @@ nav{
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    font-size: 16pt; 
-
-  }
-  header{
-    background: #fff;
-    border-bottom: 3px solid red;
-    margin-bottom: 20px;
-  }
-  
-  h1{
-    font-size: 2em;
-    text-align: center;
-    line-height: 2;
-  }
-  
-  h2{
-    font-size: 1.5em;
-    text-align: center;
-    padding: 5px;
-  }
-  
-  p {
-    padding: 0 30px;
-  }
-
-  body{
-      font-family: 'Poppins', serif;
-      background-color: paleturquoise;
-      background-image: url("../images/concrete_seamless.png");
-      justify-content: center;
-  }
-  body img{
-      width: 400px;
-      height: 400px;
-      justify-content: center;
-  }
-  .img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 100px;
+    background-color: white;
 }
-  
-  .img > li {
-    flex-basis: 350px; /* width: 350px; */
-  }
 
-  header{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+body h1{
+    border: solid grey 3px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(84, 84, 84);
+    padding: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .nav_links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  @media screen and (min-width:900px) {
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-  }
-  @media (prefers-reduced-motion) {
-    #logo {
-      position: absolute;
-      visibility: hidden;
-      animation: none;
-    }
-  }
-  footer{
+main h2{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: underline;
+}
+main p{
+    margin: 10px;
+}
+
+footer{
     background-color: black;
     color: white;
     padding: 30px;
     text-align: center;
-  }
+}
+
+body img{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+.img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 100px;
+}
+  
+  
+
+
+ 
