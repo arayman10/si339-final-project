@@ -59,12 +59,14 @@ footer{
 body img{
     width: 400px;
     height: 400px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 .img{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   row-gap: 100px;
 }
