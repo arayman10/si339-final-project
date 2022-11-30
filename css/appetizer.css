@@ -10,9 +10,9 @@ body img{
     height: 400px;
     align-items: center;
     justify-content: center;
-    border: solid snow 5px;
+    border: solid black 5px;
 }
-.images{
+.gallery{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,13 +41,15 @@ body img{
       align-items: center;
       justify-content: center;
       width: 48.3%;
+      border: solid red 5px;
        
     }
-    .img{
+    .gallery{
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 0px;
     }
   }
   @media screen and (min-width:900px) {
@@ -60,8 +62,9 @@ body img{
         align-items: center;
         justify-content: center;
         width: 31.9%;
+        border: solid snow 5px;
     }
-    .img{
+    .gallery{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
