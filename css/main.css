@@ -7,7 +7,7 @@ body img{
 }
 .images{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
@@ -45,7 +45,7 @@ body img{
     width: 400px;
     align-items: center;
     justify-content: center;
-    width: 31.9%;
+    width: 60%;
 }
 
 @media screen and (min-width:750px) {
@@ -54,7 +54,7 @@ body img{
         border: groove 5px whitesmoke;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 34%;
     }
     .images{
         display: flex;
